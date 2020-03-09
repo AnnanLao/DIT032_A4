@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<Africa_info>
+		<name>Africa</name>
+		<area>30221000</area>
+		<large_cities>
+			<large_city>
+				<country>ET</country>
+				<name>Al Qahirah</name>
+				<population>8471859</population>
+				<elevation>23</elevation>
+				<latitude>30.05</latitude>
+				<longitude>31.23</longitude>
+				<province>Egypt</province>
+			</large_city>
+			<large_city>
+				<country>WAN</country>
+				<name>Lagos</name>
+				<population>5195247</population>
+			</large_city>
+			<large_city>
+				<country>ZRE</country>
+				<name>Kinshasa</name>
+				<population>4655313</population>
+			</large_city>
+			<large_city>
+				<country>RSA</country>
+				<name>Johannesburg</name>
+				<population>4434827</population>
+			</large_city>
+			<large_city>
+				<country>CI</country>
+				<name>Abidjan</name>
+				<population>4395243</population>
+			</large_city>
+			<large_city>
+				<country>EAT</country>
+				<name>Dar es Salaam </name>
+				<population>4364541</population>
+			</large_city>
+			<large_city>
+				<country>ET</country>
+				<name>Al Iskandariyah</name>
+				<population>4123869</population>
+			</large_city>
+			<large_city>
+				<country>RSA</country>
+				<name>Cape Town</name>
+				<population>3740026</population>
+			</large_city>
+			<large_city>
+				<country>RSA</country>
+				<name>eThekwini</name>
+				<population>3442361</population>
+			</large_city>
+			<large_city>
+				<country>RSA</country>
+				<name>Ekurhuleni - Germiston</name>
+				<population>3178471</population>
+			</large_city>
+		</large_cities>
+		<large_countries>
+			<large_country>
+				<area>2381740</area>
+				<capital>Algiers</capital>
+				<code>DZ</code>
+				<name> Algeria</name>
+				<population>37062820</population>
+			</large_country>
+			<large_country>
+				<area>2345410</area>
+				<capital>Kinshasa </capital>
+				<code>ZRE</code>
+				<name>Zaire</name>
+				<population>62191161</population>
+			</large_country>
+			<large_country>
+				<area>1861484</area>
+				<capital>Khartoum</capital>
+				<code>SUD</code>
+				<name>Sudan</name>
+				<population>35652002</population>
+			</large_country>
+			<large_country>
+				<area>1759540</area>
+				<capital>Tripoli</capital>
+				<code>LAR</code>
+				<name>Libya</name>
+				<population>6040612</population>
+			</large_country>
+			<large_country>
+				<area>1284000</area>
+				<capital>N'Djamena </capital>
+				<code>TCH</code>
+				<name>Chad</name>
+				<population>11720781</population>
+				<province>Chad</province>
+			</large_country>
+		</large_countries>
+	</Africa_info>
+	
