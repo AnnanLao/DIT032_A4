@@ -1,0 +1,104 @@
+{
+  "Europe_info": {
+    "name": "Europe",
+    "area": "9938000",
+    "large_cities": {
+      "large_city": [
+        {
+          "country": "TR",
+          "name": "Istanbul",
+          "population": "13710512",
+          "longitude":28.96,
+          "latitude":41.02
+        },
+        {
+          "country": "R",
+          "name": "Moskva",
+          "population": "11979529",
+          "elevation":156,
+          "province":"Moscow"
+        },
+        {
+          "country": "GB",
+          "name": "London",
+          "population": "8250205"
+        },
+        {
+          "country": "R",
+          "name": "Sankt Peterburg",
+          "population": "5028000"
+        },
+        {
+          "country": "TR",
+          "name": "Ankara",
+          "population": "4630735"
+        },
+        {
+          "country": "TR",
+          "name": "Izmir",
+          "population": "3401994"
+        },
+        {
+          "country": "D",
+          "name": "Berlin",
+          "population": "3292365"
+        },
+        {
+          "country": "E",
+          "name": "Madrid",
+          "population": "3198645"
+        },
+        {
+          "country": "UA",
+          "name": "Kyïv",
+          "population": "2814258"
+        },
+        {
+          "country": "I",
+          "name": "Roma",
+          "population": "2617175"
+        }
+      ]
+    },
+    "large_countries": {
+      "large_country": [
+        {
+          "area": "17075200",
+          "capital": "Moskva",
+          "code": "R",
+          "name": "Russia",
+          "population": "143666931"
+        },
+        {
+          "area": "2717300",
+          "capital": "Astana",
+          "code": "KAZ",
+          "name": "Kazakhstan",
+          "population": "17165239"
+        },
+        {
+          "area": "780580",
+          "capital": "Ankara",
+          "code": "TR",
+          "name": "Turkey",
+          "population": "75627384"
+        },
+        {
+          "area": "603700",
+          "capital": "Kyïv",
+          "code": "UA",
+          "name": "Ukraine",
+          "population": "45633637"
+        },
+        {
+          "area": "547030",
+          "capital": "Paris",
+          "code": "F",
+          "name": "France",
+          "population": "64933400",
+          "province":"Île-de-France"
+        }
+      ]
+    }
+  }
+}
