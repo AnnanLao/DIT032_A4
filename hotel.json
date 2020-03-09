@@ -1,0 +1,51 @@
+{
+  "Id": 1234,
+  "Name": "Post Hotel",
+  "Location": {
+    "Latidude": 57.7089,
+    "Longitude": 11.9746
+  },
+  "Type": "Hotel",
+  "rooms": [
+    {
+      "Number": 101,
+      "Size": 21
+    },
+    {
+      "Number": 102,
+      "Size": 12
+    },
+    {
+      "Number": 503,
+      "Size": 15
+    }
+  ],
+  "Reservations": [
+     {
+    "From": "2012-03-19T07:22Z",
+    "Until": "2012-03-28T07:22Z",
+    "Confirmation _nr": 98765,
+    "Name_for_room": "Yingtai",
+    "Room_number":503
+  },
+  {
+    "From": "2012-03-20T07:22Z",
+  "Until": "2012-03-26T07:22Z",
+  "Confirmation _nr": 98744,
+  "Name_for_room": "Alfon",
+  "Room_number":102
+}
+],
+  "Users": [
+    {
+    "Email": "123456@qq.com",
+    "Username": "Qql",
+    "Full_name": "Qi Qileng"
+  },
+  {
+    "Email": "876545@qq.com",
+    "Username": "LLL",
+    "Full_name": "Liv Len"
+  }
+]
+}
