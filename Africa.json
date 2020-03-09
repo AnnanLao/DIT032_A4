@@ -1,0 +1,104 @@
+{
+  "Africa_info": {
+    "name": "Africa",
+    "area": "30221000",
+    "large_cities": {
+      "large_city": [
+        {
+          "country": "ET",
+          "name": "Al Qahirah",
+          "population": "8471859",
+          "elevation":23,
+          "latitude":30.05,
+          "longitude":31.23,
+          "province":"Egypt"
+        },
+        {
+          "country": "WAN",
+          "name": "Lagos",
+          "population": "5195247"
+        },
+        {
+          "country": "ZRE",
+          "name": "Kinshasa",
+          "population": "4655313"
+        },
+        {
+          "country": "RSA",
+          "name": "Johannesburg",
+          "population": "4434827"
+        },
+        {
+          "country": "CI",
+          "name": "Abidjan",
+          "population": "4395243"
+        },
+        {
+          "country": "EAT",
+          "name": "Dar es Salaam ",
+          "population": "4364541"
+        },
+        {
+          "country": "ET",
+          "name": "Al Iskandariyah",
+          "population": "4123869"
+        },
+        {
+          "country": "RSA",
+          "name": "Cape Town",
+          "population": "3740026"
+        },
+        {
+          "country": "RSA",
+          "name": "eThekwini",
+          "population": "3442361"
+        },
+        {
+          "country": "RSA",
+          "name": "Ekurhuleni - Germiston",
+          "population": "3178471"
+        }
+      ]
+    },
+    "large_countries": {
+      "large_country": [
+        {
+          "area": "2381740",
+          "capital": "Algiers",
+          "code": "DZ",
+          "name": " Algeria",
+          "population": "37062820"
+        },
+        {
+          "area": "2345410",
+          "capital": "Kinshasa ",
+          "code": "ZRE",
+          "name": "Zaire",
+          "population": "62191161"
+        },
+        {
+          "area": "1861484",
+          "capital": "Khartoum",
+          "code": "SUD",
+          "name": "Sudan",
+          "population": "35652002"
+        },
+        {
+          "area": "1759540",
+          "capital": "Tripoli",
+          "code": "LAR",
+          "name": "Libya",
+          "population": "6040612"
+        },
+        {
+          "area": "1284000",
+          "capital": "N'Djamena ",
+          "code": "TCH",
+          "name": "Chad",
+          "population": "11720781",
+          "province":"Chad"
+        }
+      ]
+    }
+  }
+}
