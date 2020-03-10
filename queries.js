@@ -3,9 +3,9 @@ db.conferences.count()
 
 //MGDB3.2
 db.conferences.find({}, {
-	name: 1,
-	_id: 1
-});
+	"name": 1,
+	"_id": 1
+})
 
 //MGDB3.3
 db.delegates.distinct("country")
@@ -14,7 +14,7 @@ db.delegates.distinct("country")
 db.conferences.find({
 	tracks: {
 		$elemMatch: {
-			topic: "practice"
+			"topic": "practice"
 		}
 	}
 })
@@ -40,14 +40,14 @@ db.delegates.find({
 		}
 	}, {
 		name: {
-			$regex: /^S/i
+			$regex: /^D/i
 		}
 	}]
 })
 
 // MGDB3.8
 db.conference.update({
-	"name": "MSR'16"
+	"conference.name": "MSR'16"
 }, {
 	$set: {
 		"general_chair": "Gregg Rothermel"
@@ -57,18 +57,25 @@ db.conference.update({
 // MGDB3.9
 db.conference.remove({
 	"location.country": "India"
+},{ 
+	$unset: { 
+		"location.city": ""
+	}
 })
 
 // MGDB3.10
-db.conferences.aggregate({
-		name,
-		edition
-	}
+db.conferences.aggregate(
 	[{
 		$lookup: {
 			from: "delegates",
 			localField: "general_chair",
-			foreignField: "name"
+			foreignField: "name",
+			as: "chair_delegates"
 		}
 	}]
+)
+
+db.conferences.find(
+	{ "chair_delegates": { $exists: true } },
+        {"name":1, "edition":1}
 )
