@@ -64,18 +64,17 @@ db.conference.remove({
 })
 
 // MGDB3.10
-db.conferences.aggregate(
-	[{
-		$lookup: {
-			from: "delegates",
-			localField: "general_chair",
-			foreignField: "name",
-			as: "chair_delegates"
+db.delegates.aggregate(
+    [{$match : {country: "India"}},
+    {$lookup: {
+			from: "conferences",
+			localField: "name",
+			foreignField: "general_chair",
+			as: "chair_conferences"
 		}
 	}]
 )
 
-db.conferences.find(
-	{ "chair_delegates": { $exists: true } },
-        {"name":1, "edition":1}
+db.delegates.find({},
+        {"chair_conferences.name":1, "chair_conferences.edition":1}
 )
